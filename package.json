@@ -1,0 +1,25 @@
+{
+  "name": "simple-deferred2",
+  "version": "1.0.1",
+  "author": "lvliqi <lvliqi_d@163.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name lib --formats umd,umd-min  src/index.js --report"
+  },
+  "main": "dist/lib.umd.min.js",
+  "files": [
+    "dist/*",
+    "src/index.vue"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-cli-plugin-build-lib": "^1.0.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "license": "MIT",
+  "repository": "git@github.com:dreamllq/simple-deferred2.git"
+}
