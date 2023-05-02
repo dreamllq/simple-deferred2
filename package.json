@@ -1,7 +1,7 @@
 {
   "name": "simple-deferred2",
   "description": "deferred for browser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/simple-deferred2.umd.cjs",
   "module": "./dist/simple-deferred2.js",
