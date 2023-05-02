@@ -1,0 +1,25 @@
+{
+  "eslint.format.enable": true,
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.run": "onType",
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "cSpell.words": [
+    "daterange",
+    "monthrange",
+    "yearrange"
+  ],
+  "eslint.enable": true
+}

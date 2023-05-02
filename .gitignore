@@ -1,20 +1,23 @@
-.DS_Store
-node_modules
-/dist
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-yarn.lock
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+docs/.vitepress/cache
+coverage
+!docs/.vitepress/dist
 
 # Editor directories and files
 .idea
-.vscode
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
