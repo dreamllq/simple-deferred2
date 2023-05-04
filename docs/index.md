@@ -2,10 +2,20 @@
 # hello-world
 
 <script setup lang="ts">
-  import { Hello, World } from '@/index.ts'
+  import Deferred from 'simple-deferred2';
+
+  const main = ()=>{
+    const deferred = new Deferred();
+    setTimeout(()=>{
+      deferred.resolve('ok')
+    }, 2000);
+
+    return deferred.promise;
+  }
+
+  main().then(console.log)
 </script>
 
 <div>
-  <hello />
-  <world />
+  1
 </div>
