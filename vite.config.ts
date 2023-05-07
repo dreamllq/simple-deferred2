@@ -15,7 +15,7 @@ export default defineConfig({
     lib: {
       entry: 'src/index.ts',
       name: 'simpleDeferred2',
-      fileName: 'simple-deferred2'
+      fileName: 'index'
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

@@ -3,12 +3,12 @@
   "description": "deferred for browser",
   "version": "1.0.3",
   "type": "module",
-  "main": "./dist/simple-deferred2.umd.cjs",
-  "module": "./dist/simple-deferred2.js",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
-      "import": "./dist/simple-deferred2.js",
-      "require": "./dist/simple-deferred2.umd.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
     }
   },
   "files": [
