@@ -13,7 +13,8 @@
   },
   "files": [
     "/dist",
-    "/docs/.vitepress/dist"
+    "/docs/.vitepress/dist",
+    "README.md"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
